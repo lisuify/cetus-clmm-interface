@@ -21,7 +21,7 @@ module cetus_clmm::config {
         /// 'fee_tiers' The Clmmpools fee tire map
         fee_tiers: VecMap<u32, FeeTier>,
         /// `acl` The Clmmpools ACL
-        acl: acl::ACL,
+        acl: acl::Acl,
 
         /// The current package version
         package_version: u64
