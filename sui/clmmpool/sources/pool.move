@@ -218,6 +218,38 @@ module cetus_clmm::pool {
         abort 0
     }
 
+    public fun calculated_swap_result_step_swap_result(_calculatedSwapResult: &CalculatedSwapResult, Arg1: u64): &SwapStepResult {
+        abort 0
+    }
+
+    public fun step_swap_result_amount_in(_step: &SwapStepResult): u64 {
+        abort 0
+    }
+
+    public fun step_swap_result_amount_out(_step: &SwapStepResult): u64 {
+        abort 0
+    }
+
+    public fun step_swap_result_fee_amount(_step: &SwapStepResult): u64 {
+        abort 0
+    }
+
+    public fun step_swap_result_current_sqrt_price(_step: &SwapStepResult): u128 {
+        abort 0
+    }
+
+    public fun step_swap_result_target_sqrt_price(_step: &SwapStepResult): u128 {
+        abort 0
+    }
+
+    public fun step_swap_result_current_liquidity(_step: &SwapStepResult): u128 {
+        abort 0
+    }
+
+    public fun step_swap_result_remainder_amount(_step: &SwapStepResult): u64 {
+        abort 0
+    }
+
 
     /// Calculate the position's amount_a/amount_b
     /// Params
