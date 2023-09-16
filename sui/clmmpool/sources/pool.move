@@ -218,7 +218,7 @@ module cetus_clmm::pool {
         abort 0
     }
 
-    public fun calculated_swap_result_step_swap_result(_calculatedSwapResult: &CalculatedSwapResult, Arg1: u64): &SwapStepResult {
+    public fun calculated_swap_result_step_swap_result(_calculatedSwapResult: &CalculatedSwapResult, _i: u64): &SwapStepResult {
         abort 0
     }
 
