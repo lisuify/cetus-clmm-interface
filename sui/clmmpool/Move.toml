@@ -11,4 +11,4 @@ MoveSTL = { git = "https://github.com/lisuify/move-stl.git", subdir = "sui", rev
 IntegerMate = { git = "https://github.com/lisuify/integer-mate.git", subdir = "sui", rev = "fix/testnet" }
 
 [addresses]
-cetus_clmm = "0x0868b71c0cba55bf0faf6c40df8c179c67a4d0ba0e79965b68b3d72d7dfbf666"
+cetus_clmm = "0x1c29d658882c40eeb39a8bb8fe58f71a216a918acb3e3eb3b47d24efd07257f2"

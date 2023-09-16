@@ -299,4 +299,8 @@ module cetus_clmm::pool {
     public fun swap_pay_amount<CoinTypeA, CoinTypeB>(_receipt: &FlashSwapReceipt<CoinTypeA, CoinTypeB>): u64 {
         abort 0
     }
+
+    public fun balances<CoinTypeA, CoinTypeB>(_pool: &Pool<CoinTypeA, CoinTypeB>): (&Balance<CoinTypeA>, &Balance<CoinTypeB>) {
+        abort 0
+    }
 }
